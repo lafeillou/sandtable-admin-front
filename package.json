@@ -1,0 +1,67 @@
+{
+  "name": "sandtable",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^3.5.9",
+    "@geoman-io/leaflet-geoman-free": "^2.5.0",
+    "ant-design-vue": "^1.5.0",
+    "apexcharts": "^2.6.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.4",
+    "date-fns": "^1.29.0",
+    "element-ui": "^2.13.1",
+    "enquire.js": "^2.1.6",
+    "leaflet": "^1.6.0",
+    "leaflet-plugins": "^3.3.1",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.2.7",
+    "vue-router": "^3.0.1",
+    "vue2-leaflet": "^2.5.2",
+    "vuedraggable": "^2.16.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.13.1",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.8",
+    "postcss-url": "^7.2.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
